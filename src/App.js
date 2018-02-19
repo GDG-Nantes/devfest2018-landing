@@ -11,7 +11,7 @@ class App extends Component {
       <div className="landing-page">
         <Particles params={particlesConfig} />
         <div className="landing-content">
-          <img src={logo} alt="logo" width="40%"/>
+          <img src={logo} alt="logo"/>
           <div className="landing-actions">
             <a
               href="https://drive.google.com/file/d/1zlMrEN71SfSDPuX4rRqAcLlB5BKjbAki/view?usp=sharing"
@@ -19,9 +19,10 @@ class App extends Component {
               className="btn btn-box"
             >
               <img src={rocket} width="80px" alt="download" />
-              <br/>
-              Télécharger le<br/>
-              dossier de Sponsoring
+              <span>
+                Télécharger le<br/>
+                dossier de Sponsoring
+              </span>
             </a>
           </div>
           <div className="landing-footer">
