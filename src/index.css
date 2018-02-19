@@ -59,6 +59,7 @@ h3 {
 
 .landing-content > img {
   padding-top: 80px;
+  width: 40%;
 }
 
 .landing-actions {
@@ -88,10 +89,14 @@ h3 {
 }
 
 .btn-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
 }
 
 .btn-box > img {
+  display: block;
   padding-bottom: 10px;
 }
 
@@ -116,7 +121,12 @@ a {
   z-index: 10;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
+  .landing-content > img {
+    padding-top: 60px;
+    width: 80%;
+  }
+
   h1 {
     font-size: 2em;
   }
@@ -127,5 +137,19 @@ a {
 
   h3 {
     font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 700px) and (orientation: landscape) {
+  .landing-content > img {
+    padding-top: 20px;
+    width: 50%;
+  }
+  .btn-box {
+    padding: 10px;
+  }
+
+  .btn-box > img {
+    display: none;
   }
 }
