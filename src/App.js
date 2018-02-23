@@ -29,6 +29,7 @@ class App extends Component {
             <h2>Oct. 18-19 2018</h2>
             <h2>Cité des Congrès, Nantes, France</h2>
             <a href="mailto:bureau@gdgnantes.com">Contactez nous !</a>
+            <a href="https://devfest2017.gdgnantes.com" target="_blank" rel="noopener noreferrer">Édition 2017</a>
           </div>
         </div>
       </div>
