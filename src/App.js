@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 
-import Particles from "react-particles-js";
-import particlesConfig from "./particles";
 import logo from './logo-white.png'
 import rocket from './rocket.svg'
 
@@ -9,7 +7,6 @@ class App extends Component {
   render() {
     return (
       <div className="landing-page">
-        <Particles params={particlesConfig} />
         <div className="landing-content">
           <img src={logo} alt="logo"/>
           <div className="landing-actions">
