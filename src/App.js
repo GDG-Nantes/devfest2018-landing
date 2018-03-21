@@ -21,6 +21,14 @@ class App extends Component {
                 dossier de Sponsoring
               </span>
             </a>
+            <a
+              href="https://drive.google.com/file/d/1rb9rLLZp5Y7PTg3uZIaxFdgnP0o_SZtP/view?usp=sharing"
+              target="NEW"
+            >
+              <span>
+                English version? Click here.
+              </span>
+            </a>
           </div>
           <div className="landing-footer">
             <h2>Oct. 18-19 2018</h2>
